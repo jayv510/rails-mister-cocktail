@@ -7,9 +7,7 @@
         <div class= "cocktail-info">
         <h4><%= @cocktail.name %></h4>
         <br>
-
-        <%= cl_image_tag @cocktail.photo, height: 450, width: 450, crop: :fill %>
-
+        <div class="show-photo" style="background-image: linear-gradient(0deg, rgba(36,0,0,0.5380652505142682) 0%, rgba(114,8,11,0) 33%), url('<%= cl_image_path @cocktail.photo%>');"></div>
         <br>
         <br>
         <%= link_to "» Delete this listing", cocktail_path(@cocktail),
@@ -41,3 +39,5 @@
   </div>
   </div>
   </div>
+
+  <div class = "show-banner-footer"></div>

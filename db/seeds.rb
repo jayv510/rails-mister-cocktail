@@ -16,3 +16,17 @@ user = JSON.parse(user_serialized)
 user['drinks'].each do |drink|
   Ingredient.create!(name: drink['strIngredient1'])
 end
+
+Ingredient.create(name: "Real Heart")
+Ingredient.create(name: "Kwarm Sai Jai")
+Ingredient.create(name: "Ngor Geng")
+Ingredient.create(name: "Ruk Diew Jai Diew")
+Ingredient.create(name: "Noomnim")
+Ingredient.create(name: "Chocolate")
+Ingredient.create(name: "Juiguay")
+Ingredient.create(name: "Bubble Tea")
+Ingredient.create(name: "Jayguay")
+Ingredient.create(name: "Durian")
+Ingredient.create(name: "Garnlataesa")
+Ingredient.create(name: "Ruk Buppakaree")
+Ingredient.create(name: "Mai Lhong Tua Eng")
