@@ -1,1 +1,33 @@
 _show.scss
+
+h4 {
+  font-size: 40px;
+  color: rgb(240,240,240);
+}
+
+a {
+  color: $red;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+body {
+  color: $red;
+  background-color: rgb(240,240,240);
+}
+
+.frame2 {
+  padding: 20px 95px;
+  background-color: rgba(245,245,245, 0.5);
+  border-left: 0.5px solid $red;
+  border-right: 0.5px solid $red;
+}
+
+// .container {
+//   display: flex;
+//   justify-content: space-around;
+// }

@@ -1,13 +1,23 @@
+
+<div class="wrapper">
+
+
+<div class="home-banner">
+
+<p>
+  <span id="banner-typed-text"></span>
+</p>
+</div>
+</div>
+
+
+
 <div class="wrapper-2">
 
 <div class="container">
+<div class="frame">
 
-<div class="banner" style="background-image: url('http://webneel.com/wallpaper/sites/default/files/images/07-2014/21-black-wallpaper.jpg');">
-  <div class="banner-content">
-    <h1></h1>
-    <p></p>
-  </div>
-</div>
+  <h1><u>Discover</u></h1>
 
   <div class="row">
     <% @cocktails.each do |cocktail| %>
@@ -23,9 +33,21 @@
     </div>
       <% end %>
   </div>
+    <%= link_to new_cocktail_path do%>
+      <h1><i class="fas fa-plus fa-lg"></i> Create </h1>
+    <% end %>
+
+  <br>
+  <br>
+<div class="banner" style="background-image: url('http://webneel.com/wallpaper/sites/default/files/images/07-2014/21-black-wallpaper.jpg');">
+  <div class="banner-content">
+    <h1></h1>
+    <p></p>
+  </div>
+</div>
+</div>
 </div>
 
 
-<%= link_to "Add a new cocktail", new_cocktail_path%>
 
 </div>

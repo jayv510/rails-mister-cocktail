@@ -7,11 +7,11 @@
   background-image: url("http://webneel.com/wallpaper/sites/default/files/images/06-2013/1%20buddha%20wallpaper.jpg")
 }
 
-.container {
+.frame {
   padding: 20px 95px;
   background-color: rgba(4,4,4, 0.5);
-  border-left: 0.5px solid rgb(150,150,150);
-  border-right: 0.5px solid rgb(150,150,150);
+  border-left: 0.5px solid $red;
+  border-right: 0.5px solid $red;
 }
 
 .banner {
@@ -37,4 +37,36 @@
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+i {
+  color: $red;
+}
+
+a {
+  color: $red;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+h2 {
+  color: $red;
+}
+
+#banner-typed-text {
+  font-size: 45px;
+  font-family: Yatra One;
+  color: $red;
+}
+
+h1 {
+  font-family: "Uncial Antiqua";
+  letter-spacing: -1px;
+  font-size: 32px;
+  color: $red;
 }

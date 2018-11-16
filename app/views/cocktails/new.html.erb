@@ -1,11 +1,15 @@
 
+<div class = "new-banner"></div>
+
 <div class = "container">
+  <br>
+  <br>
   <div class = "row">
     <div class= "col-xs-12 col-sm-4"></div>
   <%= simple_form_for(@cocktail) do |f| %>
   <%= f.input :name,
     placeholder: "E.g. Long Island Ice Tea",
-    label: "Please type a name" %>
+    label: "Please type your cocktail name" %>
     <%= f.submit %>
   <% end %>
     </div>

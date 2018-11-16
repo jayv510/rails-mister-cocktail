@@ -4,20 +4,21 @@
   background-color: rgb(4,4,4);
 }
 
-.container {
-  padding: 20px 95px;
-  background-color: rgb(4,4,4);
-  border-left: 0.5px solid rgb(150,150,150);
-  border-right: 0.5px solid rgb(150,150,150);
-}
+// .container {
+//   padding: 20px 95px;
+//   background-color: rgb(4,4,4);
+//   border-left: 0.5px solid rgb(150,150,150);
+//   border-right: 0.5px solid rgb(150,150,150);
+// }
 
 .home-title {
   font-family: "Uncial Antiqua";
   letter-spacing: -1px;
-  color: rgb(240,240,240);
-  position: absolute;
-  top: 10px;
-  left: 40px;
+  font-size: 32px;
+  color: $red;
+  // position: absolute;
+  // top: 10px;
+  // left: 40px;
 
 }
 
@@ -31,29 +32,29 @@
 //     transition: 0.75s;
 // }
 
-.home-banner:hover {
-  opacity: 0.6;
-  transition: 0.75s;
-}
+// .home-banner:hover {
+//   opacity: 0.6;
+//   transition: 0.75s;
+// }
 
-.home-banner:hover > .home-title {
-  opacity: 0.8;
-  transition: 0.75s;
-}
+// .home-banner:hover > .home-title {
+//   opacity: 0.8;
+//   transition: 0.75s;
+// }
 
-.btn {
-  opacity: 0.3;
-}
+// .btn {
+//   opacity: 0.3;
+// }
 
-.btn:hover {
-  opacity: 1;
-  transition: 0.75s;
-}
+// .btn:hover {
+//   opacity: 1;
+//   transition: 0.75s;
+// }
 
-.home-banner:hover > .btn {
-  opacity: 1;
-  transition: 0.75s;
-}
+// .home-banner:hover > .btn {
+//   opacity: 1;
+//   transition: 0.75s;
+// }
 // .btn-2 {
 //     letter-spacing: 0;
 // }

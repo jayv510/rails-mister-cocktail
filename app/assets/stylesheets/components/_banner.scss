@@ -12,3 +12,35 @@
   align-items: center;
   justify-content: center;
 }
+
+.show-banner {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%), url('https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  height: 40vh;
+  color: #eee;
+  text-align: center;
+  padding-top: 30vh;
+  background-position: center;
+  position: relative;
+  padding :0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: bottom;
+}
+
+.new-banner {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%), url('https://images.pexels.com/photos/340996/pexels-photo-340996.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  height: 60vh;
+  color: #eee;
+  text-align: center;
+  padding-top: 30vh;
+  background-position: center;
+  position: relative;
+  padding :0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: bottom;
+}
