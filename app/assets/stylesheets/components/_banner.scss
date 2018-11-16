@@ -44,3 +44,20 @@
   justify-content: center;
   background-position: bottom;
 }
+
+
+.new-banner2 {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%), url('https://images.pexels.com/photos/681846/pexels-photo-681846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  height: 60vh;
+  color: #eee;
+  text-align: center;
+  padding-top: 30vh;
+  background-position: center;
+  position: relative;
+  padding :0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}

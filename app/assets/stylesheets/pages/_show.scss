@@ -1,10 +1,5 @@
 _show.scss
 
-h4 {
-  font-size: 40px;
-  color: rgb(240,240,240);
-}
-
 a {
   color: $red;
   opacity: 0.8;
@@ -25,6 +20,29 @@ body {
   background-color: rgba(245,245,245, 0.5);
   border-left: 0.5px solid $red;
   border-right: 0.5px solid $red;
+  display: flex;
+  justify-content: space-between;
+
+.cocktail-info h4 {
+  font-size: 28px;
+  margin: 0px;
+}
+}
+
+.cocktail-info p {
+  font-size: 24px;
+}
+
+.cocktail-info {
+  padding: 15px;
+}
+
+.recipe {
+  padding: 15px;
+}
+
+.recipe li {
+  color: rgb(5,5,5);
 }
 
 // .container {
