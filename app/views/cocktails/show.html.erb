@@ -6,6 +6,12 @@
       <div class="col-xs-12 col-sm-6">
         <div class= "cocktail-info">
         <h4><%= @cocktail.name %></h4>
+        <br>
+
+        <%= cl_image_tag @cocktail.photo, height: 450, width: 450, crop: :fill %>
+
+        <br>
+        <br>
         <%= link_to "» Delete this listing", cocktail_path(@cocktail),
             method: :delete,
             data: { confirm: "Are you sure?" } %>

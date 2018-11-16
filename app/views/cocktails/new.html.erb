@@ -10,7 +10,11 @@
   <%= f.input :name,
     placeholder: "E.g. Long Island Ice Tea",
     label: "Please type your cocktail name" %>
-    <%= f.submit %>
+
+  <%= f.input :photo %>
+  <%= f.input :photo_cache, as: :hidden %>
+
+        <%= f.submit %>
   <% end %>
     </div>
     </div>
